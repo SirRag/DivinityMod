@@ -12,15 +12,8 @@ namespace Divinity.Items.Sanchezium
         }
         public override void SetDefaults()
         {
-            item.maxStack = 999;
-            item.useTurn = true;
-            item.useAnimation = 15;
-            item.useTime = 10;
-            item.useStyle = 1;
-            item.autoReuse = true;
-            item.rare = 5;
-            item.consumable = true;
-            item.createTile = mod.TileType("SancheziumBarTile");
+            item.maxStack = 99;
+            item.rare = 4;
         }
 		
 		public override void AddRecipes()
